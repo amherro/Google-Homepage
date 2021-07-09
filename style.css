@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+}
+
+/* Navigation at top of page */
+
+#topNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 90px;
+}
+.nav {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 20px 35px 20px 40px;
+}
+.top-links {
+    padding-top: 6px;
+}
+.nav li {
+    list-style-type: none;
+    display: inline;
+}
+.nav a {
+    text-decoration: none;
+    padding-left: 13px;
+    color: #000;
+    margin-left: 0px;
+    padding-top: 10px;
+}
+img {
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+.img-icon:hover {
+    outline: #969696 1px solid;
+}
+.signIn .button {
+    display: inline;
+    background-color: #4285f4;
+    color: white;
+    margin-left: 15px;
+    border-style: none;
+    padding: 6px 10px;
+    font-weight: bold;
+}
+.button:hover {
+    outline: #969696 1px solid;
+}
+/* Main area of page (logo, search bar, buttons) */
+
+#mainArea {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+}
+.logo {
+   grid-column: 2;
+}
+.main-logo {
+    width: 272px;
+    height: 150px;
+}
+.searchBar {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0px 100px 25px 100px; 
+}
+input {
+    outline: none;
+    margin-left: 5px;
+}
+.textBox {
+    width: 450px;
+    height: 30px;
+    border: 1.8px solid #dfe1e5;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+#searchButtons {
+    grid-column: 2;
+    grid-row: 4;
+}
+.search {
+    display: inline;  
+    margin-right: 5px;
+}
+.Lucky {
+    display: inline;
+}
+.button {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border-style: none;
+    padding: 10px 10px;
+}
+
+/* footer area */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    margin: 250px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.bottomNav1 {
+    list-style-type: none;
+    display: inline;
+    grid-column: 1;
+    text-align: left;
+    padding: 10px 60px 10px 60px;
+}
+.bottomNav2 {
+    list-style-type: none;
+    display: inline;
+    grid-column: 2;
+    text-align: right;
+    padding: 10px 50px 10px 100px;
+}
+.bottomNav1 li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.bottomNav2 li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.bottomNav1 a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #5f6368;
+}
+.bottomNav2 a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #5f6368;
+}
